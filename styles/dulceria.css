@@ -1,0 +1,255 @@
+/*---IMPORT---*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*---RESET CSS---*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*---ROOT---*/
+:root {
+    --background-color-primary: #fff;
+
+    --font-family-primary: "Lato", sans-serif;
+}
+
+/*---BODY---*/
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+/*---HEADER---*/
+.header {
+    background: linear-gradient(#1b1b1bcc, #ffffff00);
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 1.75rem;
+    position: fixed;
+    z-index: 1000;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-family:"lato" ;
+}
+
+.comprar{
+    text-align: center;
+    color: blue;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-family-primary);
+}
+
+.nav__item:hover {
+    color: #ee1717;
+    font-weight: 600;
+    border-bottom: solid 0.4em #E50246;
+}
+
+/*---CONTAINER---*/
+.container {
+    width: 100%;
+}
+
+.main_image {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/nochecine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_content {
+    color: #fff;
+    max-width: 40%;
+    padding-left: 4rem;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.content {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+.button__buy {
+    margin-top: 30px;
+    padding: 0.6rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #e91717;
+}
+
+.button__buy:hover {
+    background-color: #a50f0f;
+    cursor: pointer;
+}
+
+.button__buy i,
+.button__buy span {
+    font-size: 17px;
+    color: #fff;
+}
+
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 3rem 4rem;
+}
+
+.filters__dropdown {
+    height: 5rem;
+    width: 10rem;
+    border: 1px solid #e7e7e7;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.title__dropdown {
+    font-weight: 800;
+    font-family: var(--font-family-primary);
+    color: #100953;
+}
+
+.filters__dropdown select {
+    appearance: none;
+    font-family: var(--font-family-primary);
+}
+
+.button__filters {
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #510a8b;
+}
+.boton {
+    background-color:purple ; /* Color de fondo inicial */
+    color: whitesmoke; /* Color de texto inicial */
+    padding: 20px 32px; /* Espaciado interno */
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color, transform; /* Propiedades que cambiarán */
+    transition-duration: 0.5s, 0.3s; /* Duración de las transiciones */
+    transition-timing-function: ease-in-out, ease; /* Función de temporización */
+    transition-delay: 0s, 0.2s; /* Retraso antes de iniciar la transición */
+}
+
+/* Estado al hacer hover (pasar el ratón por encima) */
+.boton:hover {
+    background-color: blue; /* Cambio de color de fondo */
+    transform: scale(1.1); /* Aumenta el tamaño */
+}
+.button__filters:hover {
+    background-color: #40086d;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.button__filters i,
+.button__filters span {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/*---FOOTER--*/
+
+.footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer__section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer__section h3 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer__section p {
+    margin: 5px 0;
+}
+
+.footer__section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer__section a:hover {
+    text-decoration: underline;
+}
+
+.social__links {
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.social__links i {
+    font-size: 30px;
+}
+
+.social__link img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.footer__bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
