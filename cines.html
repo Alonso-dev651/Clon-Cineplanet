@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine JPardo</title>
+    <link rel="stylesheet" href="/styles/cines.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/image-removebg-preview (13).png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav__item"><img class="nav__img" src="images\image-removebg-preview (13).png" alt=""></a>
+            <a href="" class="nav__item">Peliculas</a>
+            <a href="cines.html" class="nav__item">Cines</a>
+            <a href="promos.html" class="nav__item">Promociones</a>
+            <a href="dulceria.html" class="nav__item">Dulceria</a>
+            <a href="" class="nav__item">Blog</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main_image">
+            <div class="main_content">
+                <h1 class="title">Cine JPardo</h1>
+                <h2 class="subtitle">Bienvenido a Cine JPardo</h2>
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                <button class="button__buy">
+                    <i class="fa-solid fa-ticket"></i><span>Comprar</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section class="filters">
+            <h1>Cines</h1>
+            <div class="filter-options">
+                <div class="filter">
+                    <label>Por Ciudad</label>
+                    <select>
+                        <option>Todas las ciudades</option>
+                        <option>Lima</option>
+                        <option>Angamos</option>
+                        <option>Surco</option>
+                        <option>Santa Anita</option>
+                        <option>Miraflores</option>
+                        <option>San Isidro</option>
+                        <option>Lince</option>
+                    </select>
+                </div>
+
+                <div class="filter">
+                    <label>Por Formato</label>
+                    <select>
+                        <option>Todos los formatos</option>
+                        <option>2D</option>
+                        <option>3D</option>
+                        <option>PRIME</option>
+                        <option>REGULAR</option>
+                        <option>SCREENX</option>
+                        <option>XTREME</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="cinemas">
+
+            <div class="cinema-list">
+                <div class="cinema-card">
+                    <img src="images_cines/C5.avif" alt="Cine Alcázar">
+                    <h2>CP Lima</h2>
+                    <p>Av. Santa Cruz 814-816</p>
+                    <span>2D, REGULAR, 3D</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C2.jpg" alt="Cine Arequipa Mall Plaza">
+                    <h2>CP Angamos</h2>
+                    <p>Av. Ejército 793 Cayma</p>
+                    <span>2D, REGULAR, 3D</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C3.jpg" alt="Cine Arequipa Paseo Central">
+                    <h2>CP Surco</h2>
+                    <p>Av. Arturo Ibáñez S/N</p>
+                    <span>2D, REGULAR</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C4.png" alt="Cine Larcomar">
+                    <h2>CP San Isidro</h2>
+                    <p>Malecón de la Reserva 610</p>
+                    <span>2D, REGULAR, PRIME</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C5.avif" alt="Cine Plaza Lima Sur">
+                    <h2>CP Miraflores</h2>
+                    <p>Av. Prolongación Defensores del Morro 616</p>
+                    <span>2D, XTREME, 3D</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C6.jpg" alt="Cine Salaverry">
+                    <h2>CP Santa Anita</h2>
+                    <p>Av. Salaverry 2370</p>
+                    <span>2D, SCREENX, PRIME</span>
+                </div>
+                <div class="cinema-card">
+                    <img src="images_cines/C7.jpg" alt="Cine Arequipa Mall Plaza">
+                    <h2>CP Lince</h2>
+                    <p>Av. Ejército 793 Cayma</p>
+                    <span>2D, REGULAR, 3D</span>
+                </div>               
+            </div>
+        </section>
+
+        <div class="more-cinemas">
+            <button>Ver más cines</button>
+        </div>
+
+        <section class="important-info">
+            <p>Recuerda que el horario mostrado corresponde a la hora del inicio de la publicidad. El horario de
+                apertura del cine es 20 minutos antes de la primera función programada.</p>
+        </section>
+    </main>
+
+    <section class="map-section"></section>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31211.189352085792!2d-77.01135361427808!3d-12.084836883798802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7d40397dad3%3A0x10eea715085e4c41!2sCineplanet%20San%20Borja!5e0!3m2!1ses-419!2spe!4v1725683378498!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__section">
+                <h3>Contacto</h3>
+                <p><strong>Teléfono:</strong> +51 987 654 321</p>
+                <p><strong>Email:</strong> <a href="mailto:info@cinejpardo.com">info@cinejpardo.com</a></p>
+                <p><strong>Dirección:</strong> Av. Principal 123, Lima, Perú</p>
+            </div>
+            <div class="footer__section">
+                <h3>Redes Sociales</h3>
+                <div class="social__links">
+                    <a href="#" class="social__link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social__link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social__link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer__section">
+                <h3>Suscríbete</h3>
+                <form action="#" method="post" class="subscribe-form">
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Cine JPardo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
