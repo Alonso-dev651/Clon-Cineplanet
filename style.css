@@ -25,7 +25,7 @@ body {
 
 /*---HEADER---*/
 .header {
-    background: linear-gradient(#1b1b1bcc,#ffffff00);
+    background: linear-gradient(#1b1b1bcc, #ffffff00);
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -45,7 +45,7 @@ body {
     font-family: var(--font-family-primary);
 }
 
-.nav__item:hover{
+.nav__item:hover {
     color: #ee1717;
     font-weight: 600;
     border-bottom: solid 0.4em #E50246;
@@ -72,24 +72,24 @@ body {
     padding-left: 4rem;
 }
 
-.title{
+.title {
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
 }
 
-.subtitle{
+.subtitle {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
 
-.content{
+.content {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
 }
 
-.button__buy{
+.button__buy {
     margin-top: 30px;
     padding: 0.6rem;
     display: flex;
@@ -99,18 +99,18 @@ body {
     background-color: #e91717;
 }
 
-.button__buy:hover{
+.button__buy:hover {
     background-color: #a50f0f;
     cursor: pointer;
 }
 
 .button__buy i,
-.button__buy span{
+.button__buy span {
     font-size: 17px;
     color: #fff;
 }
 
-.filters{
+.filters {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ body {
     padding: 4rem 4rem 3rem 4rem;
 }
 
-.filters__dropdown{
+.filters__dropdown {
     height: 5rem;
     width: 10rem;
     border: 1px solid #e7e7e7;
@@ -126,6 +126,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
+}
+
+.title__dropdown {
+    font-weight: 800;
+    font-family: var(--font-family-primary);
+    color: #100953;
+}
+
+.filters__dropdown select {
+    appearance: none;
+    font-family: var(--font-family-primary);
+}
+
+.button__filters {
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #510a8b;
+}
+
+.button__filters:hover {
+    background-color: #40086d;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.button__filters i,
+.button__filters span {
+    font-size: 1rem;
+    color: #fff;
 }
 
 .movies {
@@ -145,7 +178,7 @@ body {
     height: 19rem;
 }
 
-.future_movies{
+.future_movies {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,7 +231,7 @@ body {
     gap: 1.7rem;
 }
 
-.social__links i{
+.social__links i {
     font-size: 30px;
 }
 
